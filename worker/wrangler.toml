@@ -1,0 +1,6 @@
+name = "photo-background-remover"
+main = "worker/index.js"
+compatibility_date = "2024-03-01"
+
+[vars]
+# 在 Cloudflare Worker 环境变量中设置 REMOVE_BG_API_KEY
