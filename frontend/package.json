@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "preinstall": "npx -y pnpm install",
+    "install": "npx -y pnpm@9.15.0 install"
   },
   "dependencies": {
     "next": "16.2.2",
@@ -22,6 +24,5 @@
     "eslint-config-next": "16.2.2",
     "tailwindcss": "^4",
     "typescript": "^5"
-  },
-  "packageManager": "pnpm@9.15.0"
+  }
 }
