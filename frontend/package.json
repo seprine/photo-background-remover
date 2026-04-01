@@ -6,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "preinstall": "npx -y pnpm install",
-    "install": "npx -y pnpm@9.15.0 install"
+    "lint": "eslint"
   },
   "dependencies": {
     "next": "16.2.2",
