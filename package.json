@@ -2,5 +2,6 @@
   "name": "photo-background-remover",
   "version": "1.0.0",
   "private": true,
-  "description": "Online image background removal tool"
+  "description": "Online image background removal tool",
+  "packageManager": "bun@1.2.15"
 }
